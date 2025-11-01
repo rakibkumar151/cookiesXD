@@ -1,0 +1,16 @@
+# এটি আপনার টুলসের নিরাপত্তা কনফিগারেশন ফাইল
+
+# অনুমোদিত ডিস্ক ভলিউম সিরিয়াল (Windows-এ 'vol C:' দিয়ে পাওয়া)
+VOLUME_SERIAL=76CF-0984
+
+# অনুমোদিত মাদারবোর্ড প্রোডাক্ট নাম (wmic baseboard get product দিয়ে পাওয়া)
+MOTHERBOARD_PRODUCT=B650M S2H
+
+# অনুমোদিত সিস্টেম UUID (wmic csproduct get uuid দিয়ে পাওয়া)
+SYSTEM_03560274-043C-05C5-E806-660700080009
+
+# অনুমোদিত MAC Address (যদি পাওয়া যায়, হাইফেন বা কোলন ছাড়া)
+MAC_ADDRESS=A1B2C3D4E5F6
+
+# অনুমোদিত External IP Address (যদি IP অ্যাড্রেস ম্যাচিং চান)
+EXTERNAL_IP=152.56.139.247
